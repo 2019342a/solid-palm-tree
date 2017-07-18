@@ -22,11 +22,3 @@ def parse(raw_file, delimiter):
 
     return parsed_data
 
-def main():
-
-    new_data = parse(SF_FILE, ",")
-
-    print new_data
-
-if __name__ == "__main__":
-    main()
